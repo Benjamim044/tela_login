@@ -1,0 +1,9 @@
+[2026-03-26 18:49:35] event=runtime_check ip=UNKNOWN method=CLI path=Standard input code context={"source":"cli"}
+[2026-03-26 18:50:24] event=protected_page_access_denied_no_session ip=::1 method=GET path=/atividades/SistemaLogin/ context={}
+[2026-03-26 18:50:36] event=login_success ip=::1 method=POST path=/atividades/SistemaLogin/login.php context={"email":"admin@example.com","user_id":1,"remember_me":false}
+[2026-03-26 18:50:36] event=protected_page_access_granted ip=::1 method=GET path=/atividades/SistemaLogin/index.php context={"email":"admin@example.com","user_id":1}
+[2026-03-26 18:50:42] event=protected_page_access_granted ip=::1 method=GET path=/atividades/SistemaLogin/index.php context={"email":"admin@example.com","user_id":1}
+[2026-03-26 18:50:44] event=logout_success ip=::1 method=GET path=/atividades/SistemaLogin/logout.php context={"email":"admin@example.com","user_id":1}
+[2026-03-26 18:52:38] event=register_success ip=::1 method=POST path=/atividades/SistemaLogin/register.php context={"email":"benjamin@email.com","user_id":3}
+[2026-03-26 18:52:45] event=login_success ip=::1 method=POST path=/atividades/SistemaLogin/login.php context={"email":"benjamin@email.com","user_id":3,"remember_me":true}
+[2026-03-26 18:52:45] event=protected_page_access_granted ip=::1 method=GET path=/atividades/SistemaLogin/index.php context={"email":"benjamin@email.com","user_id":3}
