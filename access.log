@@ -7,3 +7,4 @@
 [2026-03-26 18:52:38] event=register_success ip=::1 method=POST path=/atividades/SistemaLogin/register.php context={"email":"benjamin@email.com","user_id":3}
 [2026-03-26 18:52:45] event=login_success ip=::1 method=POST path=/atividades/SistemaLogin/login.php context={"email":"benjamin@email.com","user_id":3,"remember_me":true}
 [2026-03-26 18:52:45] event=protected_page_access_granted ip=::1 method=GET path=/atividades/SistemaLogin/index.php context={"email":"benjamin@email.com","user_id":3}
+[2026-03-26 18:52:50] event=protected_page_access_granted ip=::1 method=GET path=/atividades/SistemaLogin/index.php context={"email":"benjamin@email.com","user_id":3}
